@@ -1,31 +1,31 @@
 # TikTok N8N Posts
 
-A powerful N8N community node for automating TikTok content management and posting. This node enables seamless integration between N8N workflows and TikTok's platform, allowing for automated content publishing and management.
+Módulo comunitário N8N poderoso para automatização de gerenciamento e postagem de conteúdo no TikTok. Este nó permite uma integração perfeita entre os fluxos de trabalho N8N e a plataforma TikTok, permitindo publicação e gerenciamento automatizado de conteúdo.
 
-## 🌟 Features
+## 🌟 Funcionalidades
 
-- **Automated Post Creation**: Schedule and publish TikTok posts automatically
-- **Video Upload Support**: Upload video content directly through N8N
-- **Caption Management**: Create and manage post captions
-- **Secure Authentication**: Built-in secure credential management for TikTok API
-- **Easy Integration**: Seamlessly integrates with existing N8N workflows
+- **Criação Automatizada de Posts**: Agende e publique posts no TikTok automaticamente
+- **Suporte para Upload de Vídeos**: Faça upload de conteúdo de vídeo diretamente através do N8N
+- **Gerenciamento de Legendas**: Crie e gerencie legendas dos posts
+- **Autenticação Segura**: Gerenciamento seguro de credenciais para a API do TikTok
+- **Integração Fácil**: Integra-se perfeitamente com fluxos de trabalho N8N existentes
 
-## 📋 Prerequisites
+## 📋 Pré-requisitos
 
-Before you begin, ensure you have:
-- An active TikTok Developer Account
-- TikTok API credentials (Client Key and Client Secret)
-- Valid Access Token from TikTok
-- N8N instance (version 0.125.0 or higher)
+Antes de começar, certifique-se de ter:
+- Uma conta ativa de desenvolvedor TikTok
+- Credenciais da API do TikTok (Client Key e Client Secret)
+- Token de Acesso válido do TikTok
+- Instância N8N (versão 0.125.0 ou superior)
 
-## 🚀 Installation
+## 🚀 Instalação
 
-1. **Via N8N Community Nodes:**
+1. **Via Nós Comunitários N8N:**
    ```bash
    npm install tiktok-n8n-posts
    ```
 
-2. **Manual Installation:**
+2. **Instalação Manual:**
    ```bash
    cd ~/.n8n/custom
    git clone https://github.com/C0d3Sn4p/tiktok_n8n_posts.git
@@ -34,68 +34,68 @@ Before you begin, ensure you have:
    npm run build
    ```
 
-## 🔑 Authentication Setup
+## 🔑 Configuração da Autenticação
 
-1. Visit [TikTok for Developers](https://developers.tiktok.com/)
-2. Create a new application
-3. Note down your:
+1. Acesse [TikTok for Developers](https://developers.tiktok.com/)
+2. Crie uma nova aplicação
+3. Anote suas credenciais:
    - Client Key
    - Client Secret
-4. Generate an Access Token through TikTok's OAuth flow
+4. Gere um Token de Acesso através do fluxo OAuth do TikTok
 
-## 💻 Usage
+## 💻 Como Usar
 
-1. Add the TikTok node to your N8N workflow
-2. Configure your TikTok API credentials in N8N
-3. Choose your desired operation:
-   - Create Post
-   - Upload Video
-   - Manage Captions
-4. Configure the operation parameters
-5. Connect with other nodes in your workflow
-6. Activate and run your workflow
+1. Adicione o nó TikTok ao seu fluxo de trabalho N8N
+2. Configure suas credenciais da API do TikTok no N8N
+3. Escolha a operação desejada:
+   - Criar Post
+   - Upload de Vídeo
+   - Gerenciar Legendas
+4. Configure os parâmetros da operação
+5. Conecte com outros nós em seu fluxo de trabalho
+6. Ative e execute seu fluxo de trabalho
 
-## 🔄 Workflow Examples
+## 🔄 Exemplos de Fluxo de Trabalho
 
-### Basic Post Creation
+### Criação Básica de Post
 ```json
 {
   "operation": "create",
   "resource": "post",
-  "videoFile": "path/to/video.mp4",
-  "caption": "Check out this awesome content! #n8n #automation"
+  "videoFile": "caminho/para/video.mp4",
+  "caption": "Confira este conteúdo incrível! #n8n #automacao"
 }
 ```
 
-## 🤝 Contributing
+## 🤝 Contribuindo
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request. Para mudanças importantes, abra uma issue primeiro para discutir o que você gostaria de mudar.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Faça um fork do repositório
+2. Crie sua branch de feature (`git checkout -b feature/RecursoIncrivel`)
+3. Faça commit de suas mudanças (`git commit -m 'Adiciona algum RecursoIncrivel'`)
+4. Faça push para a branch (`git push origin feature/RecursoIncrivel`)
+5. Abra um Pull Request
 
-## 📝 License
+## 📝 Licença
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-## 🙏 Acknowledgments
+## 🙏 Agradecimentos
 
-- Thanks to the N8N team for their amazing workflow automation platform
-- TikTok for providing the API capabilities
+- Agradecemos à equipe N8N por sua incrível plataforma de automação de fluxo de trabalho
+- TikTok por fornecer as capacidades da API
 
-## 📞 Support
+## 📞 Suporte
 
-For support, please:
-1. Check the [issues page](https://github.com/C0d3Sn4p/tiktok_n8n_posts/issues)
-2. Create a new issue if your problem isn't already listed
+Para suporte:
+1. Verifique a [página de issues](https://github.com/C0d3Sn4p/tiktok_n8n_posts/issues)
+2. Crie uma nova issue se seu problema ainda não estiver listado
 
-## 🔄 Version History
+## 🔄 Histórico de Versões
 
 - 1.0.0
-  - Initial release
-  - Basic post creation functionality
-  - Video upload support
-  - Caption management
+  - Lançamento inicial
+  - Funcionalidade básica de criação de posts
+  - Suporte para upload de vídeos
+  - Gerenciamento de legendas

@@ -1,13 +1,15 @@
 {
   "name": "tiktok-n8n-posts",
   "version": "1.0.0",
-  "description": "N8N node for TikTok integration - Automated posting and content management",
+  "description": "Módulo N8N para integração com TikTok - Automatização de postagens e gerenciamento de conteúdo",
   "keywords": [
     "n8n-community-node-package",
     "tiktok",
     "social media",
     "automation",
-    "content management"
+    "automação",
+    "redes sociais",
+    "gerenciamento de conteúdo"
   ],
   "license": "MIT",
   "homepage": "https://github.com/C0d3Sn4p/tiktok_n8n_posts",
