@@ -1,5 +1,5 @@
 {
-  "name": "tiktok-n8n-posts",
+  "name": "n8n-nodes-tiktok-n8n-posts",
   "version": "1.0.0",
   "description": "Módulo N8N para integração com TikTok - Automatização de postagens e gerenciamento de conteúdo",
   "keywords": [
